@@ -1,0 +1,10 @@
+src/edu/gvsu/mipsunit/munit/MUnit.java
+.idea
+*.iml
+*.class
+out
+.DS_Store
+*.swp
+*~
+#*
+.rsync-filter
