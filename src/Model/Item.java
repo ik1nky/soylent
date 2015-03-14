@@ -27,10 +27,12 @@ public class Item
     private Map<String,Double> nutrition;  //The string is a nutrition name such as iron or calories and its value is the amount in grams
     private String[] ingredients;  //This is the ingredients that make up the ingredients. IE coke is made of sugar, water, sucrose, etc.
 
+    //Constructor
     public Item(){
 
     }
 
+    //Get Methods
     public String getName(){return this.name;}
     public String getDescription(){return this.description;}
     public int getId(){return this.id;}
@@ -40,6 +42,7 @@ public class Item
     public Map<String,Double> getNutrition(){return this.nutrition;}
     public String[] getIngredients(){return this.getIngredients();}
 
+    //Set Methods
     public void setName(String pName){this.name = pName;}
     public void setDescription(String pDesc){this.description = pDesc;}
     public void setId(int pId){this.id = pId;}
