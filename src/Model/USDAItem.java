@@ -3,5 +3,7 @@ package Model;
 /**
  * Created by ik1nk_000 on 3/13/2015.
  */
-public class product {
+public class USDAItem extends Item {
+
 }
+
